@@ -1,0 +1,42 @@
+.appHeader {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: flex-start;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.navigation{
+    ul{
+      box-sizing: border-box;
+      list-style-type: none;
+      display: flex;
+      min-height: 6vh;
+      justify-content: flex-start;
+      align-items: center;
+  
+      li{
+        text-align: center;
+        padding: .5em;
+        cursor: pointer;
+        &:hover{
+          background-color: plum;
+          color: white;
+        }
+      }
+  
+      li a{
+        text-decoration: none;
+        color: inherit;
+      }
+  
+    }
+}
+
